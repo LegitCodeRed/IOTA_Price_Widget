@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <title>IOTA Price</title>
+    <script> 
+            window.nodeRequire = require; 
+            delete window.require;
+            delete window.exports; delete window.module; 
+    </script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="getCryptoPrice.js"> </script>
+</head>
+
+
+<body>
+<div class="container">
+    <nav>
+        <div class="nav-wrapper">
+            <a class="brand-logo center">IOTA</a>
+        </div>
+    </nav>
+    <h5 id="pricing"> </h5>   
+</div>
+
+<script>
+    let actualCurreny = "EUR";    
+    getCrypto(actualCurreny);
+    //Execute every 10 minutes
+    setInterval(function(){ getCrypto(actualCurreny) }, 600000);
+</script>
+
+
+</body>
+</html>
