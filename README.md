@@ -11,7 +11,7 @@ A small little electron tool to see the current IOTA Price
   - Use npm run package-win on Windows
   
 For other operation systems have a look at: 
-https://scotch.io/tutorials/how-to-push-an-existing-project-to-github
+https://www.christianengvall.se/electron-packager-tutorial/
 
 
 # API
