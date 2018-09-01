@@ -14,7 +14,7 @@ For other operation systems have a look at:
 https://scotch.io/tutorials/how-to-push-an-existing-project-to-github
 
 
-#API
+# API
 The API I used for pricing can be found here:
 https://www.cryptocompare.com/api/
 
